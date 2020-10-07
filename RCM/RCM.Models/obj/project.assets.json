@@ -180,19 +180,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ASUS\\.nuget\\packages\\": {}
+    "C:\\Users\\cocto\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\NETCore\\Blazor\\RCM\\RCM.Models\\RCM.Models.csproj",
+      "projectUniqueName": "D:\\Projects\\NETCore\\Blazor\\LocalProjects\\RCM\\RCM.Models\\RCM.Models.csproj",
       "projectName": "RCM.Models",
-      "projectPath": "D:\\Projects\\NETCore\\Blazor\\RCM\\RCM.Models\\RCM.Models.csproj",
-      "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\NETCore\\Blazor\\RCM\\RCM.Models\\obj\\",
+      "projectPath": "D:\\Projects\\NETCore\\Blazor\\LocalProjects\\RCM\\RCM.Models\\RCM.Models.csproj",
+      "packagesPath": "C:\\Users\\cocto\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects\\NETCore\\Blazor\\LocalProjects\\RCM\\RCM.Models\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\cocto\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -233,7 +233,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

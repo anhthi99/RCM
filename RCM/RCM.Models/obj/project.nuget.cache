@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "WO+vpTh2QSTVx6xXn8rGfFG9b4qlxVdVS71lFPF922g4jzBcrEN4K+hnPLI924YFM/WUt0Kq1xMebG2LOGhdbA==",
+  "dgSpecHash": "wfau2ec5yqvtb/Tx+xcagVdX6iuXvxASjUF+ik2yY/ufBmp6JhC06HUOn9w2jM60H6I8GIcgQcLebdukfglq3g==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\NETCore\\Blazor\\RCM\\RCM.Models\\RCM.Models.csproj",
+  "projectFilePath": "D:\\Projects\\NETCore\\Blazor\\LocalProjects\\RCM\\RCM.Models\\RCM.Models.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\ASUS\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\cocto\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\cocto\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }
