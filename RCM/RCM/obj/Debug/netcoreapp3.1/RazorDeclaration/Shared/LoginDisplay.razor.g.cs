@@ -76,6 +76,20 @@ using RCM.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 10 "D:\Projects\NETCore\Blazor\LocalProjects\RCM\RCM\_Imports.razor"
+using Radzen;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 11 "D:\Projects\NETCore\Blazor\LocalProjects\RCM\RCM\_Imports.razor"
+using Radzen.Blazor;
+
+#line default
+#line hidden
+#nullable disable
     public partial class LoginDisplay : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998

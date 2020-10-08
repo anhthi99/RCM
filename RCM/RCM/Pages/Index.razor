@@ -1,7 +1,47 @@
 ﻿@page "/"
+@using System.Net
+@using System.Net.Mail  
+@using RCM.Models 
 
-<h1>Hello, world!</h1>
+<RadzenDropDown AllowClear="true" Data="@MockData.Roles" TValue="int" TextProperty="RoleName" ValueProperty="ID" Change="Change" />
 
-Welcome to your new app.
+<RadzenButton Text="Add" Click="@(args => SendMail(html))"/>
 
-<SurveyPrompt Title="How is Blazor working for you?" />
+@code
+{
+    string html = "<b>日本語は</b><i> 泡りません</i>";
+    void Change(object obj)
+    {
+
+    }
+    /// <summary>
+    /// メールを送る
+    /// </summary>
+    /// <param name="html"></param>
+    /// <returns></returns>
+    async Task SendMail(string html)
+    {
+        string user = "serverthunghiem@gmail.com";
+        string password = "servercuaanhthi";
+        try
+        {
+            MailMessage message = new MailMessage();
+            message.From = new MailAddress(user);
+            message.To.Add(new MailAddress("thi12171999@gmail.com"));
+            message.Subject = "Title";
+            message.IsBodyHtml = true;
+            message.Body = html;
+            SmtpClient smtp = new SmtpClient();
+            smtp.Host = "smtp.gmail.com";
+            smtp.Port = 587;
+            smtp.Credentials = new NetworkCredential(user, password);
+            smtp.EnableSsl = true;
+            await smtp.SendMailAsync(message);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
+
+    }
+}

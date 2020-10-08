@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\NETCore\\Blazor\\RCM\\RCM\\RCM.csproj": {}
+    "D:\\Projects\\NETCore\\Blazor\\LocalProjects\\RCM\\RCM\\RCM.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\NETCore\\Blazor\\RCM\\RCM\\RCM.csproj": {
+    "D:\\Projects\\NETCore\\Blazor\\LocalProjects\\RCM\\RCM\\RCM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\NETCore\\Blazor\\RCM\\RCM\\RCM.csproj",
+        "projectUniqueName": "D:\\Projects\\NETCore\\Blazor\\LocalProjects\\RCM\\RCM\\RCM.csproj",
         "projectName": "RCM",
-        "projectPath": "D:\\Projects\\NETCore\\Blazor\\RCM\\RCM\\RCM.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\NETCore\\Blazor\\RCM\\RCM\\obj\\",
+        "projectPath": "D:\\Projects\\NETCore\\Blazor\\LocalProjects\\RCM\\RCM\\RCM.csproj",
+        "packagesPath": "C:\\Users\\cocto\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\NETCore\\Blazor\\LocalProjects\\RCM\\RCM\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\cocto\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -42,6 +42,10 @@
               "target": "Package",
               "version": "[5.3.2, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
             "Radzen.Blazor": {
               "target": "Package",
               "version": "[2.14.3, )"
@@ -65,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
